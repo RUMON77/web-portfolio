@@ -1,22 +1,81 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: darkslategray;
+}
 .a{
     color: orange;
     
 }
 
-.half{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-2 img{
-    width: 50%;
+.half-width img{
+    width: 100%;
+    
 
+}
+.top{
+    background-image: url("image/t.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #e6f652 0%,#2bebe1 33%, #f65291 44%, #6a29d3 100%);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  
+}
+
+.dream{
+    background-image: url("image/d.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.single-exprience{
+    box-shadow: 10px 10px 30px #888888;
+    border-radius: 5px;
+    height: 80%;
+}
+.exprience{
+    background-image: url("image/e.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(to right, #f652bf 0%,#2bebe1 33%, #f65291 44%, #6a29d3 100%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to right, #e6f652 0%,#2bebe1 33%, #f65291 44%, #6a29d3 100%);
+}
+#front{
+    border-left: 7px solid;
+    border-color: #2bebe1;
+    border-image: linear-gradient(to right, #7726e0 0%,#2bebe1 33%, #f65291 44%, #6a29d3 100%);
+    border-image-slice: 1;
+    background-image: linear-gradient(to right, #f65291 0%,#2bebe1 33%, #f65291 44%, #d1f15c 100%);
+}
+.footer p{
+    text-align: center;
 }
